@@ -7,9 +7,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image:url("https://photos.peopleimages.com/picture/202310/2938289-wide-view-of-lake.-cloudy-blue-sky.-background-concept-zoom_90.jpg");
+  background-image:url("https://images.unsplash.com/photo-1620834819267-e2e5227c0503?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2t5JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
   background-size: cover;
   background-position: center;
+  min-height: 100 vh;
 }
 
 /* Header (Set 1) */
@@ -66,10 +67,11 @@ h1 {
 }
 
 #footer {
- border:solid 1px;
- padding: 10px;
- margin:10px;
- background-color:#7A5537
- text-align: center;
- width: 100 %;
+width: 100vw; 
+  padding: 10px;
+  margin: 0; 
+  border: solid 1px black;
+  background-color: #7A5537;
+  text-align: center;
+  box-sizing: border-box; 
 }
