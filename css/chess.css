@@ -7,6 +7,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image:url("https://photos.peopleimages.com/picture/202310/2938289-wide-view-of-lake.-cloudy-blue-sky.-background-concept-zoom_90.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /* Header (Set 1) */
@@ -32,18 +35,19 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   width: 800px;
-  height: 400px; /* Set to 800px once the other 8 rows are added. */
+  height: 800px; 
   margin: 0 auto;
 }
 
 /* Individual Boxes (Shared) */
 .box {
   display: flex;
-  width: 12.5%;  
-/* Add "height: 12.5%;" here once other 8 rows are added. */
+  width: 12.5%; 
+  height: 12.5%;
   box-sizing: border-box;
   border: 1px solid #000;
   justify-content: center; /* horizontal centering (Set 1) */
+  align-items: center; /* vertical centering (Set 2) */
 }
 
 /* Chess Pieces (Shared) */
@@ -61,4 +65,11 @@ h1 {
   background-color: #553317;
 }
 
-/* Footer (Set 2) */
+#footer {
+ border:solid 1px;
+ padding: 10px;
+ margin:10px;
+ background-color:#7A5537
+ text-align: center;
+ width: 100 %;
+}
