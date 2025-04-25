@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'DehutiBook', cursive, sans-serif;
-  font-size: 80%;
+  font-size: 80 %;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,17 +17,17 @@ body {
 header {
   background-color: #7A5537;
   color: white;
-  width: 100%;
+  width: 100 %;
   text-align: center;
-  padding: 5px 0;
-  margin-top: 5px;
-  margin-bottom: 50px;
+  padding: 5 px 0;
+  margin-top: 5 px;
+  margin-bottom: 50 px;
 }
 
 /* Header Element (Set 1) */
 h1 {
   font-family: 'DehutiBook', cursive, sans-serif;
-  font-size: 400%;
+  font-size: 400 %;
   text-transform: uppercase;
 }
 
@@ -35,26 +35,26 @@ h1 {
 .board {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
-  height: 800px; 
+  width: 800 px;
+  height: 800 px; 
   margin: 0 auto;
 }
 
 /* Individual Boxes (Shared) */
 .box {
   display: flex;
-  width: 12.5%; 
-  height: 12.5%;
+  width: 12.5 %; 
+  height: 12.5 %;
   box-sizing: border-box;
-  border: 1px solid #000;
+  border: 1 px solid #000;
   justify-content: center; /* horizontal centering (Set 1) */
   align-items: center; /* vertical centering (Set 2) */
 }
 
 /* Chess Pieces (Shared) */
 .box img {
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 80 %;
+  max-height: 80 %;
 }
 
 /* Box Colors (Shared) */
@@ -67,10 +67,10 @@ h1 {
 }
 
 #footer {
-width: 100vw; 
-  padding: 10px;
+width: 100 vw; 
+  padding: 10 px;
   margin: 0; 
-  border: solid 1px black;
+  border: solid 1 px black;
   background-color: #7A5537;
   text-align: center;
   box-sizing: border-box; 
