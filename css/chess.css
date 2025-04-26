@@ -38,6 +38,7 @@ h1 {
   width: 800px;
   height: 800px; 
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 /* Individual Boxes (Shared) */
@@ -75,5 +76,5 @@ h1 {
   background-color: #7A5537;
   text-align: center;
   box-sizing: border-box;
-  margin-top: 50px;
+  margin-top: auto;
 }
